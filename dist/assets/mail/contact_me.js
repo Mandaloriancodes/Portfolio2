@@ -21,7 +21,7 @@ $(function () {
             $this = $("#sendMessageButton");
             $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
             $.ajax({
-                url: "Portfolio2/dist/assets/mail/contact_me.php",
+                url: "https://github.com/Mandaloriancodes/Portfolio2/blob/master/dist/assets/mail/contact_me.php",
                 type: "POST",
                 data: {
                     name: name,
